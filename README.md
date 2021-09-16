@@ -57,7 +57,7 @@ O utilizador deve ainda poder pedir para serem listadas todas as palavras que co
 
 ---
 
-## Funcionalidades
+## :gear: Funcionalidades
 
 - [x] Fazer a recolha de todas as palavras e as suas posições e escrevê-las num ficheiro binário
 - [x] Armazenamenar palavras numa arvore binaria e da sua posição numa lista ligada
