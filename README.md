@@ -36,7 +36,7 @@ Percorre depois o ficheiro de texto, isolando cada palavra e anotando a posiçã
 As palavras são constituídas apenas por letras(todos os outros carateres devem ser ignorados e considerados separadores).
 Só deve considerar palavras com mais de dois carateres.
 
-Identificando uma palvra, esta é escrita num ficheiro de texto chamado "param2.txt" (preservando as maiúsculas/minúsculas, acentos e cedilhas) acompanhada da sua posição no texto. O par palavra/posição é separado pelo sinal '+'. Por exemplo, 'trabalho+347'
+Identificando uma palvra, esta é escrita num ficheiro de binário com o mesmo nome, mas com um prefixo 'tab_'(preservando as maiúsculas/minúsculas, acentos e cedilhas) acompanhada da sua posição no texto.
 
 ---
 
@@ -48,8 +48,8 @@ O programa lê os pares palavra-posição desse ficheiro e constrói um índice,
 
 Considera-se que se trata da mesma palavra se a única diferença forem acentos, cedilhas, ou maiúsculas/minúsculas.
 
-Por cada palavra que o utilizador escolha devem ser mostradas todas as ocorrências, dentro do seu contexto, por ordem decrescente da posição em que ocorrem no ficheiro.
-O contexto é a frase em que a frase se encontra, bem como a frase anterior. (As frases são delimitadas pelo caráter '.').
+Por cada palavra que o utilizador escolha devem ser mostradas todas as ocorrências, dentro do seu contexto, por ordem crescente da posição em que ocorrem no ficheiro.
+O contexto são as 10 palavras anteriores e as 5 palavras seguintes.
 O texto não deve ser lido integralmente para memória: a posição de cada palavra, contida no índice, deve ser usada para ler do ficheiro de texto, diretamente, a parte a mostrar como contexto de cada palavra.
 
 O utilizador deve ainda poder pedir para serem listadas todas as palavras que comecem por uma letra, ou gama de letras. Neste caso devem ser listadas todas as ocorrências das palavras nesse intervalo, uma por linha, com as posições ordenadas por ordem decrescente.
