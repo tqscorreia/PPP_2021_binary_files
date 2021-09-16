@@ -14,7 +14,7 @@ Tabela de conteúdos
    * [Sobre o projeto](#-sobre-o-projeto)
      * [Primeira parte](#primeira-parte)
      * [Segunda parte](#segunda-parte)
-   * [Funcionalidades](#funcionalidades)
+   * [Funcionalidades](#-funcionalidades)
 
 <!--te-->
 
